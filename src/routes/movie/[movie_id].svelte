@@ -10,10 +10,9 @@
 
 <script>
 	export let movie;
+	let show = true;
 
-	if(movie.rating <= 6.9){
-
-	}
+	import Loader from "../../components/Loader.svelte";
 
 	const webtorrentConfig = {
 		announce: [
@@ -63,7 +62,7 @@
 			const file = torrent.files.find(function (file) {
 				return file.name.endsWith('.mp4');
 			})
-
+			show = false;
 			file.appendTo('.movie-video');
 		});
 		torrent.on('warning', function (err) {
@@ -80,6 +79,10 @@
 		grid-template-columns: 1fr;
 		align-items: center;
 		grid-column-gap: 8px;
+	}
+	.movie-video {
+		display: grid;
+		justify-items: center;
 	}
 	.movie-card h1 {
 		font-weight: 900;
@@ -146,7 +149,7 @@
 	</div>
 
 	<div class="movie-video" style="--bg-img: url('{movie.poster}')">
-
+		<Loader show={show} />
 	</div>
 </div>
 
