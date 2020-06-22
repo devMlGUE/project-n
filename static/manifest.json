@@ -1,8 +1,8 @@
 {
 	"background_color": "#ffffff",
 	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
+	"name": "Project N",
+	"short_name": "projectn",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [
@@ -12,7 +12,7 @@
 			"type": "image/png"
 		},
 		{
-			"src": "logo-512.png",
+			"src": "logo-192.png",
 			"sizes": "512x512",
 			"type": "image/png"
 		}

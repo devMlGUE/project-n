@@ -23,7 +23,8 @@
 				"wss://peertube.live:443/tracker/socket",
 				"wss://open.tube:443/tracker/socket",
 				"ws://tracker.sloppyta.co:80/announce"
-		]
+		],
+		maxWebConns: 8
 	}
 
 	function getMagnetLinkBySize(videos){

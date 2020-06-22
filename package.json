@@ -1,6 +1,6 @@
 {
   "name": "project-n",
-  "description": "TODO",
+  "description": "Project N",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",

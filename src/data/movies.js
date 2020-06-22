@@ -1,6 +1,36 @@
 
 const movies = [
 	{
+		id: 13,
+		title: "Star Wars: Episode IX - The Rise of Skywalker",
+		rating: 6.7,
+		year: 2019,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg',
+		runtime: 142,
+		genre: 'Action, Adventure, Fantasy, Sci-Fi',
+		plot: 'The surviving members of the resistance face the First Order once again, and the legendary conflict between the Jedi and the Sith reaches its peak bringing the Skywalker saga to its end.',
+		videos: [
+			{'quality': 720, 'magnet_link': 'a89aafb1eba56603b84722eef3dadd91a29b7fa6'},
+			{'quality': 1080, 'magnet_link': '3d05db59eebc36f37f70197b1c527ae0f4dcd0f8'},
+			{'quality': 2160, 'magnet_link': '3d05db59eebc36f37f70197b1c527ae0f4dcd0f8'},
+		]
+	},
+	{
+		id: 12,
+		title: "The Lion King",
+		rating: 6.9,
+		year: 2019,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg',
+		runtime: 118,
+		genre: 'Animation, Adventure, Drama, Family, Musical',
+		plot: 'After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.',
+		videos: [
+			{'quality': 720, 'magnet_link': 'f4c231734df63e05d214b08308d2ef93210c1858'},
+			{'quality': 1080, 'magnet_link': 'f4c231734df63e05d214b08308d2ef93210c1858'},
+			{'quality': 2160, 'magnet_link': 'f4c231734df63e05d214b08308d2ef93210c1858'},
+		]
+	},
+	{
 		id: 11,
 		title: "Nathan's Kingdom",
 		rating: 8.0,
