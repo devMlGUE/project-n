@@ -1,6 +1,21 @@
 
 const movies = [
 	{
+		id: 14,
+		title: "Snowpiercer",
+		rating: 7.1,
+		year: 2013,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_SX300.jpg',
+		runtime: 126,
+		genre: 'Action, Drama, Sci-Fi',
+		plot: 'Set in 2031, the entire world is frozen except for those aboard the Snowpiercer. For 17 years, the world\'s survivors are on a train hurtling around the globe creating their own economy and class system. Led by Curtis, a group of lower-class citizens living in squalor at the back of the train are determined to get to the front of the train and spread the wealth around. Each section of the train holds new surprises for the group who have to battle their way through. A revolution is underway.',
+		videos: [
+			{'quality': 720, 'magnet_link': 'f6fb02591033ca6a3c9d48596746191ab71cb2d4'},
+			{'quality': 1080, 'magnet_link': 'fe305724b1ea9f0fb142a6a46d425160f3c458e8'},
+			{'quality': 2160, 'magnet_link': 'fe305724b1ea9f0fb142a6a46d425160f3c458e8'},
+		]
+	},
+	{
 		id: 13,
 		title: "Star Wars: Episode IX - The Rise of Skywalker",
 		rating: 6.7,
