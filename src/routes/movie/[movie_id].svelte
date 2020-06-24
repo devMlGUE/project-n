@@ -134,7 +134,13 @@
 
 <svelte:head>
 	<title>{movie.title} ({movie.year})</title>
-	<script src="https://cdn.jsdelivr.net/npm/webtorrent@latest/webtorrent.min.js" on:load={initializeWebTorrent}></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/webtorrent@latest/webtorrent.min.js"
+		on:load={initializeWebTorrent}
+		async
+	>
+
+	</script>
 </svelte:head>
 
 <div class="movie">

@@ -1,6 +1,21 @@
 
 const movies = [
 	{
+		id: 15,
+		title: "21 Bridges",
+		rating: 6.6,
+		year: 2019,
+		poster: 'https://m.media-amazon.com/images/M/MV5BYTg4YzEzNDQtZDAxOS00M2YyLTljZWEtNjk4YTc4NDM2NTBhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg',
+		runtime: 99,
+		genre: 'Action, Crime, Drama, Thriller',
+		plot: 'An embattled NYPD detective is thrust into a citywide manhunt for a pair of cop killers after uncovering a massive and unexpected conspiracy.',
+		videos: [
+			{'quality': 720, 'magnet_link': '742d4de6242d8a8553384a4f835abe5cc7a6b0a2'},
+			{'quality': 1080, 'magnet_link': 'e420d0631406c9f6b21c26be91602f396c552858'},
+			{'quality': 2160, 'magnet_link': 'e420d0631406c9f6b21c26be91602f396c552858'},
+		]
+	},
+	{
 		id: 14,
 		title: "Snowpiercer",
 		rating: 7.1,
