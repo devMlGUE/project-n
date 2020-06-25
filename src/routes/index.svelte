@@ -34,6 +34,9 @@
 </script>
 
 <style>
+	a {
+		text-decoration: inherit;
+	}
 	.item-listing-skrn {
 		border-radius: 5px;
 		border: 1px solid rgba(0,0,0,0.08);
@@ -101,11 +104,6 @@
 		font-size: 20px;
 		line-height: 1.2rem;
 	}
-	.item-listing-description a {
-		font-weight: bold;
-		text-decoration: none;
-		cursor: pointer;
-	}
 	.item-listing-rating-skrn{
 		color:#42b740;
 		font-weight: 900;
@@ -165,28 +163,24 @@
 
 <div class="container">
 	{#each movies as movie, i}
-		<div class="item-listing-skrn">
-			<div class="item-listing-image-skrn">
-				<div class="item-listing-year" style="color:{movie.year === currentYear && '#FFEB3B'}">{movie.year}</div>
-				<a rel='prefetch' href="/movie/{movie.id}">
+		<a rel='prefetch' href="/movie/{movie.id}">
+			<div class="item-listing-skrn">
+				<div class="item-listing-image-skrn">
+					<div class="item-listing-year" style="color:{movie.year === currentYear && '#FFEB3B'}">{movie.year}</div>
 					<img loading="lazy" src={movie.poster} alt="Listing">
-				</a>
+				</div>
+				<div class="item-listing-text-skrn">
+					<div class="item-listing-description">
+						<h6> {movie.title} </h6>
+						<span
+							class="item-listing-rating-skrn"
+							style="color:{getRatingColor(movie.rating)}"
+						>
+								{movie.rating}
+						</span>
+					</div><!-- close .item-listing-text-skrn-vertical-align -->
+				</div><!-- close .item-listing-text-skrn -->
 			</div>
-			<div class="item-listing-text-skrn">
-				<div class="item-listing-description">
-					<h6>
-						<a rel='prefetch' href="/movie/{movie.id}">
-							{movie.title}
-						</a>
-					</h6>
-					<span
-						class="item-listing-rating-skrn"
-						style="color:{getRatingColor(movie.rating)}"
-					>
-							{movie.rating}
-					</span>
-				</div><!-- close .item-listing-text-skrn-vertical-align -->
-			</div><!-- close .item-listing-text-skrn -->
-		</div>
+		</a>
 	{/each}
 </div>
