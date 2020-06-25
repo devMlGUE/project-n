@@ -1,6 +1,21 @@
 
 const movies = [
 	{
+		id: 17,
+		title: "Star Wars: Episode VIII - The Last Jedi",
+		rating: 7.0,
+		year: 2017,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX150.jpg',
+		runtime: 152,
+		genre: 'Action, Adventure, Fantasy, Sci-Fi',
+		plot: 'Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.',
+		videos: [
+			{'quality': 720, 'magnet_link': '25476766bdb2d52119e1f40cf4801c05f9f3cd06'},
+			{'quality': 1080, 'magnet_link': '25476766bdb2d52119e1f40cf4801c05f9f3cd06'},
+			{'quality': 2160, 'magnet_link': '25476766bdb2d52119e1f40cf4801c05f9f3cd06'},
+		]
+	},
+	{
 		id: 16,
 		title: "Onward",
 		rating: 7.5,

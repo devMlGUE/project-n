@@ -37,6 +37,11 @@
 	a {
 		text-decoration: inherit;
 	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0;
+	}
+
 	.item-listing-skrn {
 		border-radius: 5px;
 		border: 1px solid rgba(0,0,0,0.08);
