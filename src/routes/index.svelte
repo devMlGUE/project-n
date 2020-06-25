@@ -45,6 +45,16 @@
 		position: relative;
 		max-height: 240px;
 	}
+	.item-listing-image-skrn:before {
+		content: "";
+		background: url(../mesh.png) repeat;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: 2;
+	}
 	.item-listing-skrn img {
 		width: 100%;
 		border-top-left-radius: 5px;
@@ -72,7 +82,7 @@
 		font-weight: bold;
 		font-size: 20px;
 		color: white;
-		z-index: 1;
+		z-index: 3;
 	}
 	.container {
 		grid-area: content;
@@ -159,7 +169,7 @@
 			<div class="item-listing-image-skrn">
 				<div class="item-listing-year" style="color:{movie.year === currentYear && '#FFEB3B'}">{movie.year}</div>
 				<a rel='prefetch' href="/movie/{movie.id}">
-					<img src={movie.poster} alt="Listing">
+					<img loading="lazy" src={movie.poster} alt="Listing">
 				</a>
 			</div>
 			<div class="item-listing-text-skrn">
