@@ -1,16 +1,23 @@
 <script>
+	import Icon from 'svelte-awesome/components/Icon.svelte'
+	import { faStar, faHandRock, faPaperPlane, faGrinSquintTears } from '@fortawesome/free-regular-svg-icons';
+	import { faJediOrder, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 	import Iconx from './Iconx.svelte';
+	const currDate = new Date();
+	const currentYear = currDate.getFullYear();
 </script>
 
 <style>
 	nav {
-		 grid-area: nav;
-		 width: 80px;
+		grid-area: nav;
+		width: 80px;
 		box-shadow: 4px 4px 8px #00000017;
 	}
 	.nav-item {
 		border-bottom: 1px solid #e7e7e7;
-		height: 112px;
+		height: fit-content;
+		padding: 18px 8px;
+		text-align: center;
 		display: grid;
 		align-items: center;
 		justify-items: center;
@@ -21,6 +28,10 @@
 		transition-duration: 250ms;
 		transition-property: padding-top, padding-bottom, color, background-color, width;
 		transition-timing-function: ease-in-out;
+		display: grid;
+		grid-template-columns: 1fr;
+		align-items: center;
+		justify-items: center;
 	}
 
 	.nav-item:hover a {
@@ -53,27 +64,40 @@
 		</a>
 	</div>
 	<div class="nav-item">
-		<a rel='prefetch' href="/">
-			<Iconx name="home" />
-			Home
+		<a rel='prefetch' href="/category/{currentYear}">
+			<Icon data={faStar} scale="2" />
+			<span>{currentYear}</span>
 		</a>
 	</div>
 	<div class="nav-item">
-		<a rel='prefetch' href="/movies">
-			<Iconx name="movie" />
-			Movies
+		<a rel='prefetch' href="/category/animation">
+			<Icon data={faGithubAlt} scale="2" />
+			<span>Animation</span>
 		</a>
 	</div>
 	<div class="nav-item">
-		<a rel='prefetch' href="/series">
-			<Iconx name="tv" />
-			Series
+		<a rel='prefetch' href="/category/action">
+			<Icon data={faHandRock} scale="2" />
+			<span>Action</span>
+		</a>
+	</div>
+	<div class="nav-item">
+		<a rel='prefetch' href="/category/comedy">
+			<Icon data={faGrinSquintTears} scale="2" />
+			<span>Comedy</span>
+		</a>
+	</div>
+
+	<div class="nav-item">
+		<a rel='prefetch' href="/category/sci-fi">
+			<Icon data={faJediOrder} scale="2" />
+			<span>Sci-Fi</span>
 		</a>
 	</div>
 	<div class="nav-item">
 		<a rel='prefetch' href="/ask">
-			<Iconx name="request" />
-			Requests
+			<Icon data={faPaperPlane} scale="2" />
+			<span>Requests</span>
 		</a>
 	</div>
 </nav>
