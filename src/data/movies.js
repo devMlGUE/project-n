@@ -1,6 +1,21 @@
 
 const movies = [
 	{
+		id: 18,
+		title: "Sonic the Hedgehog",
+		rating: 6.6,
+		year: 2020,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMDk5Yzc4NzMtODUwOS00NTdhLTg2MjEtZTkzZjc0ZWE2MzAwXkEyXkFqcGdeQXVyMTA3MTA4Mzgw._V1_SX150.jpg',
+		runtime: 99,
+		genre: 'Action, Adventure, Comedy, Family, Sci-Fi',
+		plot: 'Dr. Eggman transports Sonic and friends to the real world, Station Square, where they must retrieve the Seven Chaos Emeralds before Eggman does, in order to stop the evil Doctor from unleashing an ancient water god of destruction onto the world, Chaos, from flooding over civilization, while trying to find a way back to their world.',
+		videos: [
+			{'quality': 720, 'magnet_link': '77efb6cf3336fcb8fc3fc67a222f548ff88bf00c'},
+			{'quality': 1080, 'magnet_link': 'f3acfd3979cc1a30cc7f312673ced688ce78ce77'},
+			{'quality': 2160, 'magnet_link': 'f3acfd3979cc1a30cc7f312673ced688ce78ce77'},
+		]
+	},
+	{
 		id: 17,
 		title: "Star Wars: Episode VIII - The Last Jedi",
 		rating: 7.0,

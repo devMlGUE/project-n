@@ -8,6 +8,9 @@ This project is powered by [webtorrent.io](webtorrent.io) and the JS framework
 
 ## Changelog
 
+0.2.1
+- Load the categories dynamicly
+
 0.2.0
 - Create the categories component
 

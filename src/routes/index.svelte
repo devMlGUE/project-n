@@ -172,7 +172,7 @@
 			<div class="item-listing-skrn">
 				<div class="item-listing-image-skrn">
 					<div class="item-listing-year" style="color:{movie.year === currentYear && '#FFEB3B'}">{movie.year}</div>
-					<img loading="lazy" src={movie.poster} alt="Listing">
+					<img loading="lazy" width="150" src={movie.poster} alt="Listing">
 				</div>
 				<div class="item-listing-text-skrn">
 					<div class="item-listing-description">
