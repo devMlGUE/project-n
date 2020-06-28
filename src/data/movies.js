@@ -1,6 +1,126 @@
 
 const movies = [
 	{
+		id: 7886936,
+		title: "Dating Amber",
+		rating: 6,
+		year: 2020,
+		poster: 'https://m.media-amazon.com/images/M/MV5BODE0OWQwZmItOGM2Ny00N2ViLTg0NmItZTU0YTAzMjE4MDM5XkEyXkFqcGdeQXVyODQyNDI4ODg@._V1_SX150.jpg',
+		runtime: 92,
+		genre: 'Comedy',
+		plot: "Two school friends decide to start a pretend straight relationship in an effort to fit in.",
+		videos: [
+			{'quality': 720, 'magnet_link': '05478688078470F8BE4219660ADAA1F60BBACA5A'},
+			{'quality': 1080, 'magnet_link': '05478688078470F8BE4219660ADAA1F60BBACA5A'},
+			{'quality': 2160, 'magnet_link': '05478688078470F8BE4219660ADAA1F60BBACA5A'},
+		]
+	},
+	{
+		id: 9777644,
+		title: "Da 5 Bloods",
+		rating: 6.8,
+		year: 2020,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNjE4ODEwNzktYjg5Yi00N2YxLWExMmEtMmQyZTBiYWI4MGQwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX150.jpg',
+		runtime: 154,
+		genre: 'Adventure, Drama, War',
+		plot: "Four African American vets battle the forces of man and nature when they return to Vietnam seeking the remains of their fallen squad leader and the gold fortune he helped them hide.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'E42E1BF48016DF6E83C48075766A78610909F31C'},
+			{'quality': 1080, 'magnet_link': 'E42E1BF48016DF6E83C48075766A78610909F31C'},
+			{'quality': 2160, 'magnet_link': 'E42E1BF48016DF6E83C48075766A78610909F31C'},
+		]
+	},
+	{
+		id: 9779516,
+		title: "I Still Believe",
+		rating: 6.5,
+		year: 2020,
+		poster: 'https://m.media-amazon.com/images/M/MV5BZTczOTM1ZGEtNzkyNS00NGRmLWI3YjEtZmRlOGZmMzgzNzU2XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX150.jpg',
+		runtime: 116,
+		genre: 'Biography, Drama, Music, Romance',
+		plot: "The true-life story of Christian music star Jeremy Camp and his journey of love and loss that looks to prove there is always hope.",
+		videos: [
+			{'quality': 720, 'magnet_link': '80C30ECEEB7CBDC71721806734DD72180069DAC5'},
+			{'quality': 1080, 'magnet_link': '80C30ECEEB7CBDC71721806734DD72180069DAC5'},
+			{'quality': 2160, 'magnet_link': '80C30ECEEB7CBDC71721806734DD72180069DAC5'},
+		]
+	},
+	{
+		id: 7772582,
+		title: "Never Rarely Sometimes Always",
+		rating: 7.2,
+		year: 2020,
+		poster: 'https://m.media-amazon.com/images/M/MV5BOGUzZjZhMmUtZDE4Yi00NTI0LWJlMDUtNTU1OWI2ZWM1MzBmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX150.jpg',
+		runtime: 101,
+		genre: 'Drama',
+		plot: "A pair of teenage girls in rural Pennsylvania travel to New York City to seek out medical help after an unintended pregnancy.",
+		videos: [
+			{'quality': 720, 'magnet_link': '5D88935DCA2F7EB59A4CB4A91680A9400F79B01D'},
+			{'quality': 1080, 'magnet_link': '5D88935DCA2F7EB59A4CB4A91680A9400F79B01D'},
+			{'quality': 2160, 'magnet_link': '5D88935DCA2F7EB59A4CB4A91680A9400F79B01D'},
+		]
+	},
+	{
+		id: 9686708,
+		title: "The King of Staten Island",
+		rating: 7.2,
+		year: 2020,
+		poster: 'https://m.media-amazon.com/images/M/MV5BYzkxMzMzOTgtNmZhMS00MGM0LTk3MzUtMjE1MzI4MzU5ZjkzXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX150.jpg',
+		runtime: 136,
+		genre: 'Comedy, Drama',
+		plot: "Scott has been a case of arrested development since his firefighter dad died. He spends his days smoking weed and dreaming of being a tattoo artist until events force him to grapple with his grief and take his first steps forward in life.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'D7AD0FF4C03218027C18263396F76B04AF1B2CAF'},
+			{'quality': 1080, 'magnet_link': 'D7AD0FF4C03218027C18263396F76B04AF1B2CAF'},
+			{'quality': 2160, 'magnet_link': 'D7AD0FF4C03218027C18263396F76B04AF1B2CAF'},
+		]
+	},
+	{
+		id: 3778644,
+		title: "Solo: A Star Wars Story",
+		rating: 6.9,
+		year: 2018,
+		poster: 'https://m.media-amazon.com/images/M/MV5BOTM2NTI3NTc3Nl5BMl5BanBnXkFtZTgwNzM1OTQyNTM@._V1_SX150.jpg',
+		runtime: 135,
+		genre: 'Action, Adventure, Sci-Fi',
+		plot: "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'E2E457B2E77128CD20FAFD0837BBDB9A4D543578'},
+			{'quality': 1080, 'magnet_link': 'E2E457B2E77128CD20FAFD0837BBDB9A4D543578'},
+			{'quality': 2160, 'magnet_link': 'E2E457B2E77128CD20FAFD0837BBDB9A4D543578'},
+		]
+	},
+	{
+		id: 2543164,
+		title: "Arrival",
+		rating: 7.9,
+		year: 2016,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SX150.jpg',
+		runtime: 116,
+		genre: 'Drama, Mystery, Sci-Fi, Thriller',
+		plot: "Linguistics professor Louise Banks leads an elite team of investigators when gigantic spaceships touchdown in 12 locations around the world. As nations teeter on the verge of global war, Banks and her crew must race against time to find a way to communicate with the extraterrestrial visitors. Hoping to unravel the mystery, she takes a chance that could threaten her life and quite possibly all of mankind.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'AB41076CAABD1A9EBEF25795F1CFCC6491553881'},
+			{'quality': 1080, 'magnet_link': 'AB41076CAABD1A9EBEF25795F1CFCC6491553881'},
+			{'quality': 2160, 'magnet_link': 'AB41076CAABD1A9EBEF25795F1CFCC6491553881'},
+		]
+	},
+	{
+		id: 1392190,
+		title: "Mad Max: Fury Road",
+		rating: 8.1,
+		year: 2015,
+		poster: 'https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX150.jpg',
+		runtime: 120,
+		genre: 'Action, Adventure, Sci-Fi, Thriller',
+		plot: "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and almost everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order. There's Max, a man of action and a man of few words, who seeks peace of mind following the loss of his wife and child in the aftermath of the chaos. And Furiosa, a woman of action and a woman who believes her path to survival may be achieved if she can make it across the desert back to her childhood homeland.",
+		videos: [
+			{'quality': 720, 'magnet_link': '13241FE16A2797B2A41B7822BDE970274D6B687C'},
+			{'quality': 1080, 'magnet_link': '13241FE16A2797B2A41B7822BDE970274D6B687C'},
+			{'quality': 2160, 'magnet_link': '13241FE16A2797B2A41B7822BDE970274D6B687C'},
+		]
+	},
+	{
 		id: 3470600,
 		title: "Sing",
 		rating: 7.1,
