@@ -24,7 +24,7 @@
 				"wss://open.tube:443/tracker/socket",
 				"ws://tracker.sloppyta.co:80/announce"
 		],
-		maxWebConns: 8
+		maxWebConns: 16
 	}
 
 	function getMagnetLinkBySize(videos){
@@ -78,7 +78,7 @@
 		padding: 16px 8px;
 		display: grid;
 		grid-template-columns: 1fr;
-		align-items: center;
+		align-items: start;
 		grid-column-gap: 8px;
 	}
 	.movie-video {

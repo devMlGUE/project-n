@@ -7,10 +7,22 @@
 
 <script>
 	export let movies;
+	let current_page = 1;
+	let max_movies = 24;
+	const max_pages = Math.ceil(movies.length / max_movies);
+	let movie_list = movies.slice(0, max_movies);
 	const currDate = new Date();
 	const currentYear = currDate.getFullYear();
 
-	function getRatingColor(rating){
+	const changePage = (new_page) => {
+		current_page = new_page;
+		const init = (current_page - 1) * max_movies;
+		const end = current_page * max_movies;
+		console.log(`${init} - ${end}`);
+		movie_list = movies.slice(init, end);
+	};
+
+	const getRatingColor = (rating) => {
 
 		let color = ''
 		if (6 <= rating && rating < 6.5){
@@ -38,7 +50,7 @@
 		text-decoration: inherit;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h6 {
 		margin: 0;
 	}
 
@@ -92,8 +104,10 @@
 		color: white;
 		z-index: 3;
 	}
-	.container {
+	.content {
 		grid-area: content;
+	}
+	.container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-column-gap: 16px;
@@ -114,6 +128,26 @@
 		font-weight: 900;
 		font-size: 28px;
 		line-height: 2em;
+	}
+	.pagination {
+		width: fit-content;
+		margin: 0 auto;
+	}
+	.pagination-number {
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+		background: #8bc34a;
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		cursor: pointer;
+		margin: 40px 5px 80px;
+		border-radius: 5px;
+		padding: 1px;
+	}
+	.pagination-number:hover {
+		background: #4CAF50;
 	}
 	@media (min-width: 768px) {
 		/* portrait tablets, portrait iPad, e-readers (Nook/Kindle) */
@@ -166,26 +200,41 @@
 	<title>Últimos </title>
 </svelte:head>
 
-<div class="container">
-	{#each movies as movie, i}
-		<a rel='prefetch' href="/movie/{movie.id}">
-			<div class="item-listing-skrn">
-				<div class="item-listing-image-skrn">
-					<div class="item-listing-year" style="color:{movie.year === currentYear && '#FFEB3B'}">{movie.year}</div>
-					<img loading="lazy" width="150" src={movie.poster} alt="Listing">
+<div class="content">
+	<div class="container">
+		{#each movie_list as movie, i}
+			<a rel='prefetch' href="/movie/{movie.id}">
+				<div class="item-listing-skrn">
+					<div class="item-listing-image-skrn">
+						<div class="item-listing-year" style="color:{movie.year === currentYear && '#FFEB3B'}">{movie.year}</div>
+						<img loading="lazy" width="150" src={movie.poster} alt="Listing">
+					</div>
+					<div class="item-listing-text-skrn">
+						<div class="item-listing-description">
+							<h6> {movie.title} </h6>
+							<span
+								class="item-listing-rating-skrn"
+								style="color:{getRatingColor(movie.rating)}"
+							>
+									{movie.rating}
+							</span>
+						</div><!-- close .item-listing-text-skrn-vertical-align -->
+					</div><!-- close .item-listing-text-skrn -->
 				</div>
-				<div class="item-listing-text-skrn">
-					<div class="item-listing-description">
-						<h6> {movie.title} </h6>
-						<span
-							class="item-listing-rating-skrn"
-							style="color:{getRatingColor(movie.rating)}"
-						>
-								{movie.rating}
-						</span>
-					</div><!-- close .item-listing-text-skrn-vertical-align -->
-				</div><!-- close .item-listing-text-skrn -->
+			</a>
+		{/each}
+	</div>
+	<div class="pagination">
+		{#each Array(max_pages) as _, i}
+			<div class="pagination-number"
+				 on:click={() => changePage(i+1)}
+				 style="background-color: {current_page === i+1 ? '#4CAF50' : '#8bc34a' }"
+			>
+				{i+1}
 			</div>
-		</a>
-	{/each}
+		{/each}
+	</div>
 </div>
+
+
+
