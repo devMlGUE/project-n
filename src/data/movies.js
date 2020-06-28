@@ -1,18 +1,123 @@
 
 const movies = [
 	{
-		id: 1663202,
-		title: "The Revenant",
-		rating: 8.0,
-		year: 2015,
-		poster: 'https://m.media-amazon.com/images/M/MV5BMDE5OWMzM2QtOTU2ZS00NzAyLWI2MDEtOTRlYjIxZGM0OWRjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX150.jpg',
-		runtime: 156,
-		genre: 'Action, Adventure, Biography, Drama, History, Western',
-		plot: "While exploring the uncharted wilderness in 1823, legendary frontiersman Hugh Glass sustains injuries from a brutal bear attack. When his hunting team leaves him for dead, Glass must utilize his survival skills to find a way back home while avoiding natives on their own hunt. Grief-stricken and fueled by vengeance, Glass treks through the wintry terrain to track down John Fitzgerald, the former confidant who betrayed and abandoned him.",
+		id: 3470600,
+		title: "Sing",
+		rating: 7.1,
+		year: 2016,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTYzODYzODU2Ml5BMl5BanBnXkFtZTgwNTc1MTA2NzE@._V1_SX150.jpg',
+		runtime: 108,
+		genre: 'Animation, Comedy, Family, Musical',
+		plot: "In a town with no humans, just animals, a koala named Buster Moon realizes he will soon lose his theater if he cannot turn his luck around. He comes up with a plan to host a singing competition, where the winner will receive $100,000. Will this be enough to return his theater to glory?",
 		videos: [
-			{'quality': 720, 'magnet_link': '931A5BC5CE3767168D00F92A2E4CFFE472B9CE54'},
-			{'quality': 1080, 'magnet_link': '931A5BC5CE3767168D00F92A2E4CFFE472B9CE54'},
-			{'quality': 2160, 'magnet_link': '931A5BC5CE3767168D00F92A2E4CFFE472B9CE54'},
+			{'quality': 720, 'magnet_link': 'EF3B95AEF1C94FC8E98825386C3B12560FE21CFF'},
+			{'quality': 1080, 'magnet_link': 'EF3B95AEF1C94FC8E98825386C3B12560FE21CFF'},
+			{'quality': 2160, 'magnet_link': 'EF3B95AEF1C94FC8E98825386C3B12560FE21CFF'},
+		]
+	},
+	{
+		id: 5848272,
+		title: "Ralph Breaks the Internet",
+		rating: 7.1,
+		year: 2018,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTYyNzEyNDAzOV5BMl5BanBnXkFtZTgwNTk3NDczNjM@._V1_SX150.jpg',
+		runtime: 112,
+		genre: 'Animation, Adventure, Comedy, Family, Fantasy',
+		plot: "Six years after the events of Wreck-It Ralph, Ralph and Vanellope, now friends, discover a wi-fi router in their arcade, leading them into a new adventure.",
+		videos: [
+			{'quality': 720, 'magnet_link': '4EEEC8CFAE2F715B707231A4C022D3D545A6FA53'},
+			{'quality': 1080, 'magnet_link': '4EEEC8CFAE2F715B707231A4C022D3D545A6FA53'},
+			{'quality': 2160, 'magnet_link': '4EEEC8CFAE2F715B707231A4C022D3D545A6FA53'},
+		]
+	},
+	{
+		id: 3469046,
+		title: "Despicable Me 3",
+		rating: 6.3,
+		year: 2017,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNjUyNzQ2MTg3Ml5BMl5BanBnXkFtZTgwNzE4NDM3MTI@._V1_SX150.jpg',
+		runtime: 89,
+		genre: 'Animation, Adventure, Comedy, Family, Fantasy, Sci-Fi',
+		plot: "After he is fired from the Anti-Villain League for failing to take down the latest bad guy to threaten humanity, Gru finds himself in the midst of a major identity crisis. But when a mysterious stranger shows up to inform Gru that he has a long-lost twin brother-a brother who desperately wishes to follow in his twin's despicable footsteps-one former super-villain will rediscover just how good it feels to be bad.",
+		videos: [
+			{'quality': 720, 'magnet_link': '68D9400AB168C471740FB383F35A467705AC01FB'},
+			{'quality': 1080, 'magnet_link': '68D9400AB168C471740FB383F35A467705AC01FB'},
+			{'quality': 2160, 'magnet_link': '68D9400AB168C471740FB383F35A467705AC01FB'},
+		]
+	},
+	{
+		id: 2380307,
+		title: "Coco",
+		rating: 8.4,
+		year: 2017,
+		poster: 'https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_SX150.jpg',
+		runtime: 105,
+		genre: 'Animation, Adventure, Family, Fantasy, Music, Mystery',
+		plot: "Despite his family's baffling generations-old ban on music, Miguel (voice of newcomer Anthony Gonzalez) dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz (voice of Benjamin Bratt). Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector (voice of Gael García Bernal), and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
+		videos: [
+			{'quality': 720, 'magnet_link': '56EA070327C4F34BFB3ADFBEBDA29BB1125799E7'},
+			{'quality': 1080, 'magnet_link': '56EA070327C4F34BFB3ADFBEBDA29BB1125799E7'},
+			{'quality': 2160, 'magnet_link': '56EA070327C4F34BFB3ADFBEBDA29BB1125799E7'},
+		]
+	},
+	{
+		id: 3874544,
+		title: "The Boss Baby",
+		rating: 6.3,
+		year: 2017,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTg5MzUxNzgxNV5BMl5BanBnXkFtZTgwMTM2NzQ3MjI@._V1_SX150.jpg',
+		runtime: 97,
+		genre: 'Animation, Adventure, Comedy, Family, Fantasy',
+		plot: "Seven-year-old Tim Templeton has always been a boy of an overactive imagination, and for the past seven years, life was all peaches for him, getting all the love and affection from his caring parents. However, life will never be the same and Tim won't be the centre of attention anymore as the arrival of an improbable new brother named Boss Baby, dressed in a black suit complete with a tie and a briefcase, will shortly rob him of all love, as he takes over the whole Templetons' house. Nevertheless, although this may be true, soon, Tim and the new Boss in a diaper will need to put differences aside and join forces, as a sneaky scheme involving the head of Puppy Co. threatens to tilt the balance of power towards their insidiously adorable furry antagonists, not to mention that the next Pet Convention is in only two days.. Brothers, hurry up.",
+		videos: [
+			{'quality': 720, 'magnet_link': '3997AC6DB4C767B9CC3DE84D25E3E912CF24612E'},
+			{'quality': 1080, 'magnet_link': '3997AC6DB4C767B9CC3DE84D25E3E912CF24612E'},
+			{'quality': 2160, 'magnet_link': '3997AC6DB4C767B9CC3DE84D25E3E912CF24612E'},
+		]
+	},
+	{
+		id: 3606756,
+		title: "Incredibles 2",
+		rating: 7.6,
+		year: 2018,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTEzNzY0OTg0NTdeQTJeQWpwZ15BbWU4MDU3OTg3MjUz._V1_SX150.jpg',
+		runtime: 118,
+		genre: 'Animation, Action, Adventure, Comedy, Family, Sci-Fi',
+		plot: "The Incredibles hero family takes on a new mission, which involves a change in family roles: Bob Parr (Mr Incredible) must manage the house while his wife Helen (Elastigirl) goes out to save the world.",
+		videos: [
+			{'quality': 720, 'magnet_link': '6B7469C830B624321F843A95D0BD162AAF2ABFF4'},
+			{'quality': 1080, 'magnet_link': '6B7469C830B624321F843A95D0BD162AAF2ABFF4'},
+			{'quality': 2160, 'magnet_link': '6B7469C830B624321F843A95D0BD162AAF2ABFF4'},
+		]
+	},
+	{
+		id: 3521164,
+		title: "Moana",
+		rating: 7.6,
+		year: 2016,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjI4MzU5NTExNF5BMl5BanBnXkFtZTgwNzY1MTEwMDI@._V1_SX150.jpg',
+		runtime: 107,
+		genre: 'Animation, Adventure, Comedy, Family, Fantasy, Musical',
+		plot: "Moana Waialiki is a sea voyaging enthusiast and the only daughter of a chief in a long line of navigators. When her island's fishermen can't catch any fish and the crops fail, she learns that the demigod Maui caused the blight by stealing the heart of the goddess, Te Fiti. The only way to heal the island is to persuade Maui to return Te Fiti's heart, so Moana sets off on an epic journey across the Pacific. The film is based on stories from Polynesian mythology.",
+		videos: [
+			{'quality': 720, 'magnet_link': '635F4FE104291989E433EF7100C33F6106E85007'},
+			{'quality': 1080, 'magnet_link': '635F4FE104291989E433EF7100C33F6106E85007'},
+			{'quality': 2160, 'magnet_link': '635F4FE104291989E433EF7100C33F6106E85007'},
+		]
+	},
+	{
+		id: 2277860,
+		title: "Finding Dory",
+		rating: 7.3,
+		year: 2016,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNzg4MjM2NDQ4MV5BMl5BanBnXkFtZTgwMzk3MTgyODE@._V1_SX150.jpg',
+		runtime: 97,
+		genre: 'Animation, Adventure, Comedy, Family',
+		plot: "Dory is a wide-eyed, blue tang fish who suffers from memory loss every 10 seconds or so. The one thing she can remember is that she somehow became separated from her parents as a child. With help from her friends Nemo and Marlin, Dory embarks on an epic adventure to find them. Her journey brings her to the Marine Life Institute, a conservatory that houses diverse ocean species.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'C9CD862A631FDD4AE7B15BC8C6077BD2932A4A4D'},
+			{'quality': 1080, 'magnet_link': 'C9CD862A631FDD4AE7B15BC8C6077BD2932A4A4D'},
+			{'quality': 2160, 'magnet_link': 'C9CD862A631FDD4AE7B15BC8C6077BD2932A4A4D'},
 		]
 	},
 	{
