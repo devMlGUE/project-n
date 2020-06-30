@@ -1,7 +1,7 @@
 const currDate = new Date();
 const currentYear = currDate.getFullYear();
 import { faStar, faHandRock, faGrinSquintTears, faSadCry } from '@fortawesome/free-regular-svg-icons';
-import { faJediOrder, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
+import { faJediOrder, faGithubAlt, faSnapchatGhost } from '@fortawesome/free-brands-svg-icons';
 
 const categories = [
     {
@@ -28,6 +28,11 @@ const categories = [
         slug: "drama",
         icon: faSadCry,
         label: "Drama"
+    },
+    {
+        slug: "horror",
+        icon: faSnapchatGhost,
+        label: "Horror"
     },
     {
         slug: "sci-fi",

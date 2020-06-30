@@ -1,6 +1,232 @@
 
 const movies = [
 	{
+		id: 884328,
+		title: "The Mist",
+		rating: 7.1,
+		year: 2007,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTU2NjQyNDY1Ml5BMl5BanBnXkFtZTcwMTk1MDU1MQ@@._V1_SX150.jpg',
+		runtime: 126,
+		genre: 'Horror, Sci-Fi',
+		plot: "Everyone thinks of it as a harmless lightning storm. When Dave Drayton notices a strange mist on the lake, he thinks nothing of it. When he, his son, Billy Drayton, and his neighbor Brent Norton travel to the supermarket, the unthinkable happens. On their way to the market, they see the army, firefighters, and the police heading toward the mist. When he sees this Brent mentions something about Project Arrowhead, a secret military project that no one knows about. As they are shopping, they see three soldiers walk in, pick up a few things, then head toward the mist. All eighty of the store's shoppers have no clue what is going on until an old man runs in the market with a bloody nose and declares Something in the mist! He tells them to close the door. About five seconds after they close the door, the entire store shakes, as though it has been lifted several feet above the ground. When David is asked to check on the generator, he finds the loading dock door being pushed on by something outside. Then Dave hears a groan. He asks three people to come with him. When Norm the bag-boy volunteers to go out, he is dragged away by a creature with large squid-like tentacles that have mouths, teeth, and arms. After Dave and the other three fight off the tentacles, they warn everyone in the store what is out there. Upon hearing this, Mrs. Carmody exclaims that it is the End Time and that God is punishing them. People don't believe it, but finally Mrs. Carmody has almost everyone in the store on her side. Does 'Project Arrowhead' have anything to do with this? Will Dave Drayton, his son, and his friends make it out alive as they make a last stand against this destruction? Or will they be taken by the demon-like creatures of 'The Mist'?",
+		videos: [
+			{'quality': 720, 'magnet_link': '169E44B34CD68CD5F1CFD29CEC76E165A8945FD6'},
+			{'quality': 1080, 'magnet_link': '169E44B34CD68CD5F1CFD29CEC76E165A8945FD6'},
+			{'quality': 2160, 'magnet_link': '169E44B34CD68CD5F1CFD29CEC76E165A8945FD6'},
+		]
+	},{
+		id: 360486,
+		title: "Constantine",
+		rating: 7.0,
+		year: 2005,
+		poster: 'https://m.media-amazon.com/images/M/MV5BODRiNmFhY2EtMGY2OC00YjI2LWIyYjQtYzFiM2ZhNjdhYzE4XkEyXkFqcGdeQXVyNDY5MTUyNjU@._V1_SX150.jpg',
+		runtime: 121,
+		genre: 'Action, Fantasy, Horror, Mystery',
+		plot: "John Constantine is approached by Det. Angela Dodson who needs his help to prove that her twin sister Isabel's death was not a suicide. The dead woman was a devout Catholic and Angela refuses to accept she would have taken her own life. She's asked Constantine for help because he has a reputation for dealing with the mystical. In fact, he is a demon hunter whose sole purpose on Earth is to send demons back to the nether regions. John himself has been to Hell and knows that he is destined to return there on his death - but hopes his good deeds may find him a place in Heaven. As he looks into Isabel's death, he realizes demons are trying to break through to the human world, and his battles lead him into a direct conflict with Satan.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'BAD4719C9FB4767A53DAB2D957B046B9F4D998A1'},
+			{'quality': 1080, 'magnet_link': 'BAD4719C9FB4767A53DAB2D957B046B9F4D998A1'},
+			{'quality': 2160, 'magnet_link': 'BAD4719C9FB4767A53DAB2D957B046B9F4D998A1'},
+		]
+	},{
+		id: 4160708,
+		title: "Don't Breathe",
+		rating: 7.1,
+		year: 2016,
+		poster: 'https://m.media-amazon.com/images/M/MV5BZGI5ZTU2M2YtZWY4MC00ZDFhLTliYTItZTk1NjdlN2NkMzg2XkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_SX150.jpg',
+		runtime: 88,
+		genre: 'Crime, Horror, Thriller',
+		plot: "Rocky, a young woman wanting to start a better life for her and her sister, agrees to take part in the robbery of a house owned by a wealthy blind man with her boyfriend Money and their friend Alex. But when the blind man turns out to be a more ruthless adversary than he seems, the group must find a way to escape his home before they become his latest victims.",
+		videos: [
+			{'quality': 720, 'magnet_link': '3BD27DB4D0A97DAE6A06C47F608C4A9DB171E7A3'},
+			{'quality': 1080, 'magnet_link': '3BD27DB4D0A97DAE6A06C47F608C4A9DB171E7A3'},
+			{'quality': 2160, 'magnet_link': '3BD27DB4D0A97DAE6A06C47F608C4A9DB171E7A3'},
+		]
+	},{
+		id: 78748,
+		title: "Alien",
+		rating: 8.4,
+		year: 1979,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX150.jpg',
+		runtime: 117,
+		genre: 'Horror, Sci-Fi',
+		plot: "A commercial crew aboard the deep space towing vessel, Nostromo is on its way home when they pick up an SOS warning from a distant moon. What they don't know is that the SOS warning is not like any other ordinary warning call. Picking up the signal, the crew realizes that they are not alone on the spaceship when an alien stowaway is on the cargo ship.",
+		videos: [
+			{'quality': 720, 'magnet_link': '63DBB194903342CB1A674A56BB520F7F48366FA4'},
+			{'quality': 1080, 'magnet_link': '63DBB194903342CB1A674A56BB520F7F48366FA4'},
+			{'quality': 2160, 'magnet_link': '63DBB194903342CB1A674A56BB520F7F48366FA4'},
+		]
+	},{
+		id: 93773,
+		title: "Predator",
+		rating: 7.8,
+		year: 1987,
+		poster: 'https://m.media-amazon.com/images/M/MV5BY2QwYmFmZTEtNzY2Mi00ZWMyLWEwY2YtMGIyNGZjMWExOWEyXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX150.jpg',
+		runtime: 107,
+		genre: 'Action, Adventure, Sci-Fi, Thriller',
+		plot: "A team of special force ops, led by a tough but fair soldier, Major Dutch Schaefer, are ordered to assist CIA man, Colonel Al Dillon, on a rescue mission for potential survivors of a Helicopter downed over remote South American jungle. Not long after they land, Dutch and his team discover that they have been sent in under false pretenses. This deception turns out to be the least of their worries though, when they find themselves being methodically hunted by something not of this world.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'FB132F15FD902A715403C7F57025C3EEC86F77E5'},
+			{'quality': 1080, 'magnet_link': 'FB132F15FD902A715403C7F57025C3EEC86F77E5'},
+			{'quality': 2160, 'magnet_link': 'FB132F15FD902A715403C7F57025C3EEC86F77E5'},
+		]
+	},{
+		id: 1259521,
+		title: "The Cabin in the Woods",
+		rating: 7.0,
+		year: 2011,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNTUxNzYyMjg2N15BMl5BanBnXkFtZTcwMTExNzExNw@@._V1_SX150.jpg',
+		runtime: 95,
+		genre: 'Horror',
+		plot: "Five teenagers head off for a weekend at a secluded cabin in the woods. They arrive to find they are quite isolated with no means of communicating with the outside world. When the cellar door flings itself open, they of course go down to investigate. They find an odd assortment of relics and curios, but when one of the women, Dana, reads from a book, she awakens a family of deadly zombie killers. However, there's far more going on than meets the eye.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'EE48AC557B1ABE606D87F9C89758498F5AD660BA'},
+			{'quality': 1080, 'magnet_link': 'EE48AC557B1ABE606D87F9C89758498F5AD660BA'},
+			{'quality': 2160, 'magnet_link': 'EE48AC557B1ABE606D87F9C89758498F5AD660BA'},
+		]
+	},{
+		id: 387564,
+		title: "Saw",
+		rating: 7.6,
+		year: 2004,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjE4MDYzNDE1OV5BMl5BanBnXkFtZTcwNDY2OTYwNA@@._V1_SX150.jpg',
+		runtime: 103,
+		genre: 'Horror, Mystery',
+		plot: "Waking up in a undisclosed location in a unknown room two men, adam and gordon are trapped into a single room with a dead body. Given random tools with riddles hidnen around the room. Wondering who could have done this there are clues to who might of done it; the jigsaw killer. The question is not just who but why would a serial killer leave two men in a room. Both adam and gordon hiding secrets they must trust and work together to get out or die...can they survive jigsaws game or die trying?",
+		videos: [
+			{'quality': 720, 'magnet_link': '44F00C2C38EA5B629A869B5BE40D7AC54A4BB700'},
+			{'quality': 1080, 'magnet_link': '44F00C2C38EA5B629A869B5BE40D7AC54A4BB700'},
+			{'quality': 2160, 'magnet_link': '44F00C2C38EA5B629A869B5BE40D7AC54A4BB700'},
+		]
+	},{
+		id: 144084,
+		title: "American Psycho",
+		rating: 7.6,
+		year: 2000,
+		poster: 'https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNjQtN2UyOS00NjcxLWFjMDktMDE2NzMyNTZlZTBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX150.jpg',
+		runtime: 101,
+		genre: 'Comedy, Crime, Drama',
+		plot: "Patrick Bateman is handsome, well educated and intelligent. He is twenty-seven and living his own American dream. He works by day on Wall Street, earning a fortune to complement the one he was born with. At night he descends into madness, as he experiments with fear and violence.",
+		videos: [
+			{'quality': 720, 'magnet_link': '70DB29B66672E8676BFFC9EA50B4E3F9232F14E2'},
+			{'quality': 1080, 'magnet_link': '70DB29B66672E8676BFFC9EA50B4E3F9232F14E2'},
+			{'quality': 2160, 'magnet_link': '70DB29B66672E8676BFFC9EA50B4E3F9232F14E2'},
+		]
+	},{
+		id: 90605,
+		title: "Aliens",
+		rating: 8.3,
+		year: 1986,
+		poster: 'https://m.media-amazon.com/images/M/MV5BZGU2OGY5ZTYtMWNhYy00NjZiLWI0NjUtZmNhY2JhNDRmODU3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX150.jpg',
+		runtime: 137,
+		genre: 'Action, Adventure, Sci-Fi, Thriller',
+		plot: "Fifty seven years after Ellen Ripley survived her disastrous ordeal, her escape vessel is recovered after drifting across the galaxy as she slept in cryogenic stasis. Back on Earth, nobody believed her story about the Aliens on the moon LV-426. After the Company orders the colony on LV-426 to investigate, however, all communication with the colony is lost. The Company enlists Ripley to aid a team of tough, rugged space marines on a rescue mission to the now partially terraformed moon to find out if there are aliens or survivors. As the mission unfolds, Ripley will be forced to come to grips with her worst nightmare, but even as she does, she finds that the worst is yet to come.",
+		videos: [
+			{'quality': 720, 'magnet_link': '25DA5C0B1D5DB01009716F31481D89F7419B06C9'},
+			{'quality': 1080, 'magnet_link': '25DA5C0B1D5DB01009716F31481D89F7419B06C9'},
+			{'quality': 2160, 'magnet_link': '25DA5C0B1D5DB01009716F31481D89F7419B06C9'},
+		]
+	},
+	{
+		id: 4972582,
+		title: "Split",
+		rating: 7.3,
+		year: 2016,
+		poster: 'https://m.media-amazon.com/images/M/MV5BZTJiNGM2NjItNDRiYy00ZjY0LTgwNTItZDBmZGRlODQ4YThkL2ltYWdlXkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_SX150.jpg',
+		runtime: 117,
+		genre: 'Horror, Thriller',
+		plot: "When three girls are kidnapped by a man with 23 different personalities, they have to work out which of those personalities will help them escape and which of those personalities will try to stop them.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'AA1FCD4067A829B6866D3D3D36263D993D994A69'},
+			{'quality': 1080, 'magnet_link': 'AA1FCD4067A829B6866D3D3D36263D993D994A69'},
+			{'quality': 2160, 'magnet_link': 'AA1FCD4067A829B6866D3D3D36263D993D994A69'},
+		]
+	},{
+		id: 5052448,
+		title: "Get Out",
+		rating: 7.7,
+		year: 2017,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_SX150.jpg',
+		runtime: 104,
+		genre: 'Horror, Mystery, Thriller',
+		plot: "Chris and his girlfriend Rose go upstate to visit her parent's for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'CB415C7E5D04770BEA35BC5C649AB1D3FE6654A7'},
+			{'quality': 1080, 'magnet_link': 'CB415C7E5D04770BEA35BC5C649AB1D3FE6654A7'},
+			{'quality': 2160, 'magnet_link': 'CB415C7E5D04770BEA35BC5C649AB1D3FE6654A7'},
+		]
+	},{
+		id: 5580390,
+		title: "The Shape of Water",
+		rating: 7.3,
+		year: 2017,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNGNiNWQ5M2MtNGI0OC00MDA2LWI5NzEtMmZiYjVjMDEyOWYzXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX150.jpg',
+		runtime: 123,
+		genre: 'Adventure, Drama, Fantasy, Romance, Thriller',
+		plot: "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'A4216252293D587CD35F844FBA30F5BC11C25939'},
+			{'quality': 1080, 'magnet_link': 'A4216252293D587CD35F844FBA30F5BC11C25939'},
+			{'quality': 2160, 'magnet_link': 'A4216252293D587CD35F844FBA30F5BC11C25939'},
+		]
+	},{
+		id: 816711,
+		title: "World War Z",
+		rating: 7.0,
+		year: 2013,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNDQ4YzFmNzktMmM5ZC00MDZjLTk1OTktNDE2ODE4YjM2MjJjXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX150.jpg',
+		runtime: 116,
+		genre: 'Action, Adventure, Horror, Sci-Fi',
+		plot: "Life for former United Nations investigator Gerry Lane and his family seems content. Suddenly, the world is plagued by a mysterious infection turning whole human populations into rampaging mindless zombies. After barely escaping the chaos, Lane is persuaded to go on a mission to investigate this disease. What follows is a perilous trek around the world where Lane must brave horrific dangers and long odds to find answers before human civilization falls.",
+		videos: [
+			{'quality': 720, 'magnet_link': '319FC21F3DB3254C5BC976A096801AB791458E95'},
+			{'quality': 1080, 'magnet_link': '319FC21F3DB3254C5BC976A096801AB791458E95'},
+			{'quality': 2160, 'magnet_link': '319FC21F3DB3254C5BC976A096801AB791458E95'},
+		]
+	},{
+		id: 3065204,
+		title: "The Conjuring 2",
+		rating: 7.3,
+		year: 2016,
+		poster: 'https://m.media-amazon.com/images/M/MV5BZjU5OWVlN2EtODNlYy00MjhhLWI0MDUtMTA3MmQ5MGMwYTZmXkEyXkFqcGdeQXVyNjE5MTM4MzY@._V1_SX150.jpg',
+		runtime: 134,
+		genre: 'Horror, Mystery, Thriller',
+		plot: "In 1977, paranormal investigators Ed and Lorraine Warren travel to London, England, where single mother Peggy Hodgson believes that something evil is in her home. When Peggy's youngest daughter starts showing signs of demonic possession, Ed and Lorraine attempt to help the besieged girl, only to find themselves targeted by the malicious spirits.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'B51A833C9C2DF976D1B9C9864AADFD20A3008641'},
+			{'quality': 1080, 'magnet_link': 'B51A833C9C2DF976D1B9C9864AADFD20A3008641'},
+			{'quality': 2160, 'magnet_link': 'B51A833C9C2DF976D1B9C9864AADFD20A3008641'},
+		]
+	},{
+		id: 480249,
+		title: "I Am Legend",
+		rating: 7.2,
+		year: 2007,
+		poster: 'https://m.media-amazon.com/images/M/MV5BYTE1ZTBlYzgtNmMyNS00ZTQ2LWE4NjEtZjUxNDJkNTg2MzlhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX150.jpg',
+		runtime: 101,
+		genre: 'Adventure, Drama, Sci-Fi, Thriller',
+		plot: "Robert Neville is a scientist who was unable to stop the spread of the terrible virus that was incurable and man-made. Immune, Neville is now the last human survivor in what is left of New York City and perhaps the world. For three years, Neville has faithfully sent out daily radio messages, desperate to find any other survivors who might be out there. But he is not alone. Mutant victims of the plague -- The Infected -- lurk in the shadows... watching Neville's every move... waiting for him to make a fatal mistake. Perhaps mankind's last, best hope, Neville is driven by only one remaining mission: to find a way to reverse the effects of the virus using his own immune blood. But he knows he is outnumbered... and quickly running out of time.",
+		videos: [
+			{'quality': 720, 'magnet_link': '86A06CDD072E34F2220D9FBAF587D635A4767AD7'},
+			{'quality': 1080, 'magnet_link': '86A06CDD072E34F2220D9FBAF587D635A4767AD7'},
+			{'quality': 2160, 'magnet_link': '86A06CDD072E34F2220D9FBAF587D635A4767AD7'},
+		]
+	},{
+		id: 2262227,
+		title: "The Book of Life",
+		rating: 7.3,
+		year: 2014,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTkzOTgzNDYzOF5BMl5BanBnXkFtZTgwOTgxMTkyMjE@._V1_SX150.jpg',
+		runtime: 95,
+		genre: 'Animation, Adventure, Comedy, Family, Fantasy, Musical, Romance',
+		plot: "From producer Guillermo del Toro and director Jorge Gutierrez comes an animated comedy with a unique visual style. THE BOOK OF LIFE is the journey of Manolo, a young man who is torn between fulfilling the expectations of his family and following his heart. Before choosing which path to follow, he embarks on an incredible adventure that spans three fantastical worlds where he must face his greatest fears. Rich with a fresh take on pop music favorites, THE BOOK OF LIFE encourages us to celebrate the past while looking forward to the future.",
+		videos: [
+			{'quality': 720, 'magnet_link': '4EBD6B18A51AE1B329E81C655C40396D58AE8EC3'},
+			{'quality': 1080, 'magnet_link': '4EBD6B18A51AE1B329E81C655C40396D58AE8EC3'},
+			{'quality': 2160, 'magnet_link': '4EBD6B18A51AE1B329E81C655C40396D58AE8EC3'},
+		]
+	},
+	{
 		id: 2278388,
 		title: "The Grand Budapest Hotel",
 		rating: 8.1,
