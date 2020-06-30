@@ -1,6 +1,260 @@
 
 const movies = [
 	{
+		id: 110357,
+		title: "The Lion King",
+		rating: 8.5,
+		year: 1994,
+		poster: 'https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SX150.jpg',
+		runtime: 88,
+		genre: 'Animation, Adventure, Drama, Family, Musical',
+		plot: "A young lion Prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron paw, the prince grows up beyond the Savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him, the young Prince must decide his fate: will he remain an outcast, or face his demons and become what he needs to be?",
+		videos: [
+			{'quality': 720, 'magnet_link': 'BB52D50D798D8B55994538CB73D9AE3CB22C943E'},
+			{'quality': 1080, 'magnet_link': 'BB52D50D798D8B55994538CB73D9AE3CB22C943E'},
+			{'quality': 2160, 'magnet_link': 'BB52D50D798D8B55994538CB73D9AE3CB22C943E'},
+		]
+	},{
+		id: 1375666,
+		title: "Inception",
+		rating: 8.8,
+		year: 2010,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX150.jpg',
+		runtime: 148,
+		genre: 'Action, Adventure, Sci-Fi, Thriller',
+		plot: "Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible - inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming.",
+		videos: [
+			{'quality': 720, 'magnet_link': '224BF45881252643DFC2E71ABC7B2660A21C68C4'},
+			{'quality': 1080, 'magnet_link': '224BF45881252643DFC2E71ABC7B2660A21C68C4'},
+			{'quality': 2160, 'magnet_link': '224BF45881252643DFC2E71ABC7B2660A21C68C4'},
+		]
+	},{
+		id: 1201607,
+		title: "Harry Potter and the Deathly Hallows: Part 2",
+		rating: 8.1,
+		year: 2011,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjIyZGU4YzUtNDkzYi00ZDRhLTljYzctYTMxMDQ4M2E0Y2YxXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX150.jpg',
+		runtime: 130,
+		genre: 'Adventure, Drama, Fantasy, Mystery',
+		plot: "Harry, Ron, and Hermione continue their quest of finding and destroying the Dark Lord's three remaining Horcruxes, the magical items responsible for his immortality. But as the mystical Deathly Hallows are uncovered, and Voldemort finds out about their mission, the biggest battle begins and life as they know it will never be the same again.",
+		videos: [
+			{'quality': 720, 'magnet_link': '2C9E99F41E63FF7BED2AE763D8F42A898DD0740F'},
+			{'quality': 1080, 'magnet_link': '2C9E99F41E63FF7BED2AE763D8F42A898DD0740F'},
+			{'quality': 2160, 'magnet_link': '2C9E99F41E63FF7BED2AE763D8F42A898DD0740F'},
+		]
+	},{
+		id: 6751668,
+		title: "Parasite",
+		rating: 8.6,
+		year: 2019,
+		poster: 'https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX150.jpg',
+		runtime: 132,
+		genre: 'Comedy, Drama, Thriller',
+		plot: "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'CE6D2A6BBC439A8F6B94B23BA63B04164400FE3B'},
+			{'quality': 1080, 'magnet_link': 'CE6D2A6BBC439A8F6B94B23BA63B04164400FE3B'},
+			{'quality': 2160, 'magnet_link': 'CE6D2A6BBC439A8F6B94B23BA63B04164400FE3B'},
+		]
+	},{
+		id: 1950186,
+		title: "Ford v Ferrari",
+		rating: 8.1,
+		year: 2019,
+		poster: 'https://m.media-amazon.com/images/M/MV5BM2UwMDVmMDItM2I2Yi00NGZmLTk4ZTUtY2JjNTQ3OGQ5ZjM2XkEyXkFqcGdeQXVyMTA1OTYzOTUx._V1_SX150.jpg',
+		runtime: 152,
+		genre: 'Action, Biography, Drama, Sport',
+		plot: "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'E765E336BAA0BFBB22ED6A9B84884FBC344842F9'},
+			{'quality': 1080, 'magnet_link': 'E765E336BAA0BFBB22ED6A9B84884FBC344842F9'},
+			{'quality': 2160, 'magnet_link': 'E765E336BAA0BFBB22ED6A9B84884FBC344842F9'},
+		]
+	},{
+		id: 120737,
+		title: "The Lord of the Rings: The Fellowship of the Ring",
+		rating: 8.8,
+		year: 2001,
+		poster: 'https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX150.jpg',
+		runtime: 178,
+		genre: 'Action, Adventure, Drama, Fantasy',
+		plot: "An ancient Ring thought lost for centuries has been found, and through a strange twist in fate has been given to a small Hobbit named Frodo. When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to the Cracks of Doom in order to destroy it! However he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir and his three Hobbit friends Merry, Pippin and Samwise. Through mountains, snow, darkness, forests, rivers and plains, facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to destroy the One Ring is the only hope for the end of the Dark Lords reign!",
+		videos: [
+			{'quality': 720, 'magnet_link': '7C286EC055A01E70C4B138FC3901A8995E47B973'},
+			{'quality': 1080, 'magnet_link': '7C286EC055A01E70C4B138FC3901A8995E47B973'},
+			{'quality': 2160, 'magnet_link': '7C286EC055A01E70C4B138FC3901A8995E47B973'},
+		]
+	},{
+		id: 3783958,
+		title: "La La Land",
+		rating: 8.0,
+		year: 2016,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_SX150.jpg',
+		runtime: 128,
+		genre: 'Comedy, Drama, Music, Musical, Romance',
+		plot: "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'BA2409BC42C5B2D8E7AE7C8BB7A10FD0502E8A35'},
+			{'quality': 1080, 'magnet_link': 'BA2409BC42C5B2D8E7AE7C8BB7A10FD0502E8A35'},
+			{'quality': 2160, 'magnet_link': 'BA2409BC42C5B2D8E7AE7C8BB7A10FD0502E8A35'},
+		]
+	},{
+		id: 482571,
+		title: "The Prestige",
+		rating: 8.5,
+		year: 2006,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_SX150.jpg',
+		runtime: 130,
+		genre: 'Drama, Mystery, Sci-Fi, Thriller',
+		plot: "In the end of the Nineteenth Century, in London, Robert Angier, his beloved wife Julia McCullough and Alfred Borden are friends and assistants of a magician. When Julia accidentally dies during a performance, Robert blames Alfred for her death and they become enemies. Both become famous and rival magicians, sabotaging the performance of the other on the stage. When Alfred performs a successful trick, Robert becomes obsessed trying to disclose the secret of his competitor with tragic consequences.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'AAA47382B2E6834CD487D0858BCD502D40145F7E'},
+			{'quality': 1080, 'magnet_link': 'AAA47382B2E6834CD487D0858BCD502D40145F7E'},
+			{'quality': 2160, 'magnet_link': 'AAA47382B2E6834CD487D0858BCD502D40145F7E'},
+		]
+	},
+	{
+		id: 1431045,
+		title: "Deadpool",
+		rating: 8.0,
+		year: 2016,
+		poster: 'https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX150.jpg',
+		runtime: 108,
+		genre: 'Action, Adventure, Comedy, Sci-Fi',
+		plot: "This is the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+		videos: [
+			{'quality': 720, 'magnet_link': '6268ABCCB049444BEE76813177AA46643A7ADA88'},
+			{'quality': 1080, 'magnet_link': '6268ABCCB049444BEE76813177AA46643A7ADA88'},
+			{'quality': 2160, 'magnet_link': '6268ABCCB049444BEE76813177AA46643A7ADA88'},
+		]
+	},{
+		id: 3315342,
+		title: "Logan",
+		rating: 8.1,
+		year: 2017,
+		poster: 'https://m.media-amazon.com/images/M/MV5BYzc5MTU4N2EtYTkyMi00NjdhLTg3NWEtMTY4OTEyMzJhZTAzXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX150.jpg',
+		runtime: 137,
+		genre: 'Action, Drama, Sci-Fi, Thriller',
+		plot: "In 2029 the mutant population has shrunken significantly and the X-Men have disbanded. Logan, whose power to self-heal is dwindling, has surrendered himself to alcohol and now earns a living as a chauffeur. He takes care of the ailing old Professor X whom he keeps hidden away. One day, a female stranger asks Logan to drive a girl named Laura to the Canadian border. At first he refuses, but the Professor has been waiting for a long time for her to appear. Laura possesses an extraordinary fighting prowess and is in many ways like Wolverine. She is pursued by sinister figures working for a powerful corporation; this is because her DNA contains the secret that connects her to Logan. A relentless pursuit begins - In this third cinematic outing featuring the Marvel comic book character Wolverine we see the superheroes beset by everyday problems. They are aging, ailing and struggling to survive financially. A decrepit Logan is forced to ask himself if he can or even wants to put his remaining powers to good use. It would appear that in the near-future, the times in which they were able put the world to rights with razor sharp claws and telepathic powers are now over.",
+		videos: [
+			{'quality': 720, 'magnet_link': '1AB2CE4D62A9A46E91A3A3097BCEBD6248978D40'},
+			{'quality': 1080, 'magnet_link': '1AB2CE4D62A9A46E91A3A3097BCEBD6248978D40'},
+			{'quality': 2160, 'magnet_link': '1AB2CE4D62A9A46E91A3A3097BCEBD6248978D40'},
+		]
+	},{
+		id: 2015381,
+		title: "Guardians of the Galaxy",
+		rating: 8.0,
+		year: 2014,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SX150.jpg',
+		runtime: 121,
+		genre: 'Action, Adventure, Comedy, Sci-Fi',
+		plot: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the Guardians of the Galaxy to save the world.",
+		videos: [
+			{'quality': 720, 'magnet_link': '11A2AC68A11634E980F265CB1433C599D017A759'},
+			{'quality': 1080, 'magnet_link': '11A2AC68A11634E980F265CB1433C599D017A759'},
+			{'quality': 2160, 'magnet_link': '11A2AC68A11634E980F265CB1433C599D017A759'},
+		]
+	},{
+		id: 2119532,
+		title: "Hacksaw Ridge",
+		rating: 8.1,
+		year: 2016,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_SX150.jpg',
+		runtime: 139,
+		genre: 'Biography, Drama, History, War',
+		plot: "The true story of Desmond T. Doss, the conscientious objector who, at the Battle of Okinawa, won the Medal of Honor for his incredible bravery and regard for his fellow soldiers. We see his upbringing and how this shaped his views, especially his religious view and anti-killing stance. We see Doss's trials and tribulations after enlisting in the US Army and trying to become a medic. Finally, we see the hell on Earth that was Hacksaw Ridge.",
+		videos: [
+			{'quality': 720, 'magnet_link': '65793E99362AAD994AE86D3F97E43B3465B05B1B'},
+			{'quality': 1080, 'magnet_link': '65793E99362AAD994AE86D3F97E43B3465B05B1B'},
+			{'quality': 2160, 'magnet_link': '65793E99362AAD994AE86D3F97E43B3465B05B1B'},
+		]
+	},{
+		id: 1727824,
+		title: "Bohemian Rhapsody",
+		rating: 8.0,
+		year: 2018,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTA2NDc3Njg5NDVeQTJeQWpwZ15BbWU4MDc1NDcxNTUz._V1_SX150.jpg',
+		runtime: 134,
+		genre: 'Biography, Drama, Music',
+		plot: "The story of the legendary British rock band Queen and lead singer Freddie Mercury, leading up to their famous performance at Live Aid (1985).",
+		videos: [
+			{'quality': 720, 'magnet_link': 'E99CAC0ADD8DECF33B48CCDB96F700209EB675D9'},
+			{'quality': 1080, 'magnet_link': 'E99CAC0ADD8DECF33B48CCDB96F700209EB675D9'},
+			{'quality': 2160, 'magnet_link': 'E99CAC0ADD8DECF33B48CCDB96F700209EB675D9'},
+		]
+	},{
+		id: 993846,
+		title: "The Wolf of Wall Street",
+		rating: 8.2,
+		year: 2013,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX150.jpg',
+		runtime: 180,
+		genre: 'Biography, Crime, Drama',
+		plot: "Jordan Belfort is a Long Island penny stockbroker who served 22 months in prison for defrauding investors in a massive 1990s securities scam that involved widespread corruption on Wall Street and in the corporate banking world, including shoe designer Steve Madden.",
+		videos: [
+			{'quality': 720, 'magnet_link': '4B642D022980E5EBAA7CF4B6E1CC93769921CB42'},
+			{'quality': 1080, 'magnet_link': '4B642D022980E5EBAA7CF4B6E1CC93769921CB42'},
+			{'quality': 2160, 'magnet_link': '4B642D022980E5EBAA7CF4B6E1CC93769921CB42'},
+		]
+	},{
+		id: 1856101,
+		title: "Blade Runner 2049",
+		rating: 8.0,
+		year: 2017,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX150.jpg',
+		runtime: 164,
+		genre: 'Action, Drama, Mystery, Sci-Fi, Thriller',
+		plot: "Thirty years after the events of the first film, a new blade runner, LAPD Officer K (Ryan Gosling), unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard (Harrison Ford), a former LAPD blade runner who has been missing for 30 years.",
+		videos: [
+			{'quality': 720, 'magnet_link': '8F4F1C37649D5A6276A3A789B4AE62FEEFF23D27'},
+			{'quality': 1080, 'magnet_link': '8F4F1C37649D5A6276A3A789B4AE62FEEFF23D27'},
+			{'quality': 2160, 'magnet_link': '8F4F1C37649D5A6276A3A789B4AE62FEEFF23D27'},
+		]
+	},{
+		id: 2084970,
+		title: "The Imitation Game",
+		rating: 8.0,
+		year: 2014,
+		poster: 'https://m.media-amazon.com/images/M/MV5BOTgwMzFiMWYtZDhlNS00ODNkLWJiODAtZDVhNzgyNzJhYjQ4L2ltYWdlXkEyXkFqcGdeQXVyNzEzOTYxNTQ@._V1_SX150.jpg',
+		runtime: 114,
+		genre: 'Biography, Drama, Thriller, War',
+		plot: "Based on the real life story of legendary cryptanalyst Alan Turing, the film portrays the nail-biting race against time by Turing and his brilliant team of code-breakers at Britain's top-secret Government Code and Cypher School at Bletchley Park, during the darkest days of World War II.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'B9A19040C3FCCC5F8AD963F43B4AC8EA3097AF9B'},
+			{'quality': 1080, 'magnet_link': 'B9A19040C3FCCC5F8AD963F43B4AC8EA3097AF9B'},
+			{'quality': 2160, 'magnet_link': 'B9A19040C3FCCC5F8AD963F43B4AC8EA3097AF9B'},
+		]
+	},{
+		id: 1877832,
+		title: "X-Men: Days of Future Past",
+		rating: 8.0,
+		year: 2014,
+		poster: 'https://m.media-amazon.com/images/M/MV5BZGIzNWYzN2YtMjcwYS00YjQ3LWI2NjMtOTNiYTUyYjE2MGNkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX150.jpg',
+		runtime: 132,
+		genre: 'Action, Adventure, Sci-Fi, Thriller',
+		plot: "In the future, the mutants and the humans that help them are slaughtered by powerful robots named Sentinels. Professor Xavier, Wolverine, Magneto, Storm, Kitty Pryde and her friends meet at a monastery in China and Xavier explains that the invincible Sentinels were created using the DNA of Mystique that was captured in 1973 when she tried to assassinate their creator Dr. Bolivar Trask. Xavier tells that their only chance is return to 1973 using Pryde's ability to join Charles Xavier and Erik Lehnsherr to convince Mystique to give up of her intention. . However, only Wolverine can withstand the damages of the time travel. Will he succeed in stopping Mystique and the Sentinel Program and save the mutants and their human friends from annihilation?",
+		videos: [
+			{'quality': 720, 'magnet_link': '4F275301F4BAA51B455749599DC53250413EB9AD'},
+			{'quality': 1080, 'magnet_link': '4F275301F4BAA51B455749599DC53250413EB9AD'},
+			{'quality': 2160, 'magnet_link': '4F275301F4BAA51B455749599DC53250413EB9AD'},
+		]
+	},{
+		id: 2267998,
+		title: "Gone Girl",
+		rating: 8.1,
+		year: 2014,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX150.jpg',
+		runtime: 149,
+		genre: 'Drama, Mystery, Thriller',
+		plot: "On the occasion of his fifth wedding anniversary, Nick Dunne reports that his wife, Amy, has gone missing. Under pressure from the police and a growing media frenzy, Nick's portrait of a blissful union begins to crumble. Soon his lies, deceits and strange behavior have everyone asking the same dark question: Did Nick Dunne kill his wife?",
+		videos: [
+			{'quality': 720, 'magnet_link': 'D2310F718EB02F98665266786F7D00B42A20F055'},
+			{'quality': 1080, 'magnet_link': 'D2310F718EB02F98665266786F7D00B42A20F055'},
+			{'quality': 2160, 'magnet_link': 'D2310F718EB02F98665266786F7D00B42A20F055'},
+		]
+	},
+	{
 		id: 7886936,
 		title: "Dating Amber",
 		rating: 6,

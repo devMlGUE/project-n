@@ -206,7 +206,11 @@
 			<a rel='prefetch' href="/movie/{movie.id}">
 				<div class="item-listing-skrn">
 					<div class="item-listing-image-skrn">
-						<div class="item-listing-year" style="color:{movie.year === currentYear && '#FFEB3B'}">{movie.year}</div>
+						<div class="item-listing-year"
+							 style="color:{movie.year === currentYear ? '#FFEB3B' : 'white'}"
+						>
+							{movie.year}
+						</div>
 						<img loading="lazy" width="150" src={movie.poster} alt="Listing">
 					</div>
 					<div class="item-listing-text-skrn">
