@@ -1,6 +1,245 @@
 
 const movies = [
 	{
+		id: 2278388,
+		title: "The Grand Budapest Hotel",
+		rating: 8.1,
+		year: 2014,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX150.jpg',
+		runtime: 99,
+		genre: 'Adventure, Comedy, Crime',
+		plot: "GRAND BUDAPEST HOTEL recounts the adventures of Gustave H, a legendary concierge at a famous European hotel between the wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend. The story involves the theft and recovery of a priceless Renaissance painting and the battle for an enormous family fortune -- all against the back-drop of a suddenly and dramatically changing Continent.",
+		videos: [
+			{'quality': 720, 'magnet_link': '50C4F4DC98003E9D8F1618609108199F22D5A392'},
+			{'quality': 1080, 'magnet_link': '50C4F4DC98003E9D8F1618609108199F22D5A392'},
+			{'quality': 2160, 'magnet_link': '50C4F4DC98003E9D8F1618609108199F22D5A392'},
+		]
+	},{
+		id: 137523,
+		title: "Fight Club",
+		rating: 8.8,
+		year: 1999,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX150.jpg',
+		runtime: 139,
+		genre: 'Drama',
+		plot: "A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power. When the narrator is exposed to the hidden agenda of Tyler's fight club, he must accept the awful truth that Tyler may not be who he says he is.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'A086CE4AFABBD8AB949662E30134A49E22D1F0C7'},
+			{'quality': 1080, 'magnet_link': 'A086CE4AFABBD8AB949662E30134A49E22D1F0C7'},
+			{'quality': 2160, 'magnet_link': 'A086CE4AFABBD8AB949662E30134A49E22D1F0C7'},
+		]
+	},{
+		id: 3741834,
+		title: "Lion",
+		rating: 8.0,
+		year: 2016,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjA3NjkzNjg2MF5BMl5BanBnXkFtZTgwMDkyMzgzMDI@._V1_SX150.jpg',
+		runtime: 118,
+		genre: 'Biography, Drama',
+		plot: "In 1986, Saroo was a five-year-old child in India of a poor but happy rural family. On a trip with his brother, Saroo soon finds himself alone and trapped in a moving decommissioned passenger train that takes him to Calcutta, 1500 miles away from home. Now totally lost in an alien urban environment and too young to identify either himself or his home to the authorities, Saroo struggles to survive as a street child until he is sent to an orphanage. Soon, Saroo is selected to be adopted by the Brierley family in Tasmania, where he grows up in a loving, prosperous home. However, for all his material good fortune, Saroo finds himself plagued by his memories of his lost family in his adulthood and tries to search for them even as his guilt drives him to hide this quest from his adoptive parents and his girlfriend. Only when he has an epiphany does he realize not only the answers he needs, but also the steadfast love that he has always had with all his loved ones in both worlds.",
+		videos: [
+			{'quality': 720, 'magnet_link': '13EEF7CB88D39489AF91E7062F5FC6D52DC54D36'},
+			{'quality': 1080, 'magnet_link': '13EEF7CB88D39489AF91E7062F5FC6D52DC54D36'},
+			{'quality': 2160, 'magnet_link': '13EEF7CB88D39489AF91E7062F5FC6D52DC54D36'},
+		]
+	},{
+		id: 382932,
+		title: "Ratatouille",
+		rating: 8.0,
+		year: 2007,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX150.jpg',
+		runtime: 111,
+		genre: 'Animation, Adventure, Comedy, Drama, Family, Fantasy',
+		plot: "A rat named Remy dreams of becoming a great French chef despite his family's wishes and the obvious problem of being a rat in a decidedly rodent-phobic profession. When fate places Remy in the sewers of Paris, he finds himself ideally situated beneath a restaurant made famous by his culinary hero, Auguste Gusteau. Despite the apparent dangers of being an unlikely - and certainly unwanted - visitor in the kitchen of a fine French restaurant, Remy's passion for cooking soon sets into motion a hilarious and exciting rat race that turns the culinary world of Paris upside down.",
+		videos: [
+			{'quality': 720, 'magnet_link': '4D140BD0A24B8AB8145BF0A05BFEC1C3FF7DC463'},
+			{'quality': 1080, 'magnet_link': '4D140BD0A24B8AB8145BF0A05BFEC1C3FF7DC463'},
+			{'quality': 2160, 'magnet_link': '4D140BD0A24B8AB8145BF0A05BFEC1C3FF7DC463'},
+		]
+	},{
+		id: 2948356,
+		title: "Zootopia",
+		rating: 8.0,
+		year: 2016,
+		poster: 'https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX150.jpg',
+		runtime: 108,
+		genre: 'Animation, Adventure, Comedy, Crime, Family, Mystery',
+		plot: "From the largest elephant to the smallest shrew, the city of Zootopia is a mammal metropolis where various animals live and thrive. When Judy Hopps becomes the first rabbit to join the police force, she quickly learns how tough it is to enforce the law. Determined to prove herself, Judy jumps at the opportunity to solve a mysterious case. Unfortunately, that means working with Nick Wilde, a wily fox who makes her job even harder.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'AE6C7870E48D1F7E1F03CBCB4BBCDEA70CE8AF9D'},
+			{'quality': 1080, 'magnet_link': 'AE6C7870E48D1F7E1F03CBCB4BBCDEA70CE8AF9D'},
+			{'quality': 2160, 'magnet_link': 'AE6C7870E48D1F7E1F03CBCB4BBCDEA70CE8AF9D'},
+		]
+	},{
+		id: 109830,
+		title: "Forrest Gump",
+		rating: 8.8,
+		year: 1994,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX150.jpg',
+		runtime: 142,
+		genre: 'Drama, Romance',
+		plot: "Forrest Gump is a simple man with a low I.Q. but good intentions. He is running through childhood with his best and only friend Jenny. His 'mama' teaches him the ways of life and leaves him to choose his destiny. Forrest joins the army for service in Vietnam, finding new friends called Dan and Bubba, he wins medals, creates a famous shrimp fishing fleet, inspires people to jog, starts a ping-pong craze, creates the smiley, writes bumper stickers and songs, donates to people and meets the president several times. However, this is all irrelevant to Forrest who can only think of his childhood sweetheart Jenny Curran, who has messed up her life. Although in the end all he wants to prove is that anyone can love anyone.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'FEE625A78CB2057CE7845AA66E95F60D43EA8AB0'},
+			{'quality': 1080, 'magnet_link': 'FEE625A78CB2057CE7845AA66E95F60D43EA8AB0'},
+			{'quality': 2160, 'magnet_link': 'FEE625A78CB2057CE7845AA66E95F60D43EA8AB0'},
+		]
+	},{
+		id: 110912,
+		title: "Pulp Fiction",
+		rating: 8.9,
+		year: 1994,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX150.jpg',
+		runtime: 154,
+		genre: 'Crime, Drama',
+		plot: "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hit men who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
+		videos: [
+			{'quality': 720, 'magnet_link': '3F8F219568B8B229581DDDD7BC5A5E889E906A9B'},
+			{'quality': 1080, 'magnet_link': '3F8F219568B8B229581DDDD7BC5A5E889E906A9B'},
+			{'quality': 2160, 'magnet_link': '3F8F219568B8B229581DDDD7BC5A5E889E906A9B'},
+		]
+	},{
+		id: 2024544,
+		title: "12 Years a Slave",
+		rating: 8.1,
+		year: 2013,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_SX150.jpg',
+		runtime: 134,
+		genre: 'Biography, Drama, History',
+		plot: "Based on an incredible true story of one man's fight for survival and freedom. In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty personified by a malevolent slave owner, as well as unexpected kindnesses, Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon's chance meeting with a Canadian abolitionist will forever alter his life.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'AAD050EE1BB22E196939547B134535824DABF0CE'},
+			{'quality': 1080, 'magnet_link': 'AAD050EE1BB22E196939547B134535824DABF0CE'},
+			{'quality': 2160, 'magnet_link': 'AAD050EE1BB22E196939547B134535824DABF0CE'},
+		]
+	},{
+		id: 2096673,
+		title: "Inside Out",
+		rating: 8.1,
+		year: 2015,
+		poster: 'https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX150.jpg',
+		runtime: 95,
+		genre: 'Animation, Adventure, Comedy, Drama, Family, Fantasy',
+		plot: "Growing up can be a bumpy road, and it's no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco. Like all of us, Riley is guided by her emotions - Joy, Fear, Anger, Disgust and Sadness. The emotions live in Headquarters, the control center inside Riley's mind, where they help advise her through everyday life. As Riley and her emotions struggle to adjust to a new life in San Francisco, turmoil ensues in Headquarters. Although Joy, Riley's main and most important emotion, tries to keep things positive, the emotions conflict on how best to navigate a new city, house and school.",
+		videos: [
+			{'quality': 720, 'magnet_link': '556BE0BD40C4880E29BA567663C65BD8BAE9FBEB'},
+			{'quality': 1080, 'magnet_link': '556BE0BD40C4880E29BA567663C65BD8BAE9FBEB'},
+			{'quality': 2160, 'magnet_link': '556BE0BD40C4880E29BA567663C65BD8BAE9FBEB'},
+		]
+	},{
+		id: 5027774,
+		title: "Three Billboards Outside Ebbing, Missouri",
+		rating: 8.2,
+		year: 2017,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjI0ODcxNzM1N15BMl5BanBnXkFtZTgwMzIwMTEwNDI@._V1_SX150.jpg',
+		runtime: 115,
+		genre: 'Comedy, Crime, Drama',
+		plot: "THREE BILLBOARDS OUTSIDE EBBING, MISSOURI is a darkly comic drama from Academy Award winner Martin McDonagh (In Bruges). After months have passed without a culprit in her daughter's murder case, Mildred Hayes (Academy Award winner Frances McDormand) makes a bold move, painting three signs leading into her town with a controversial message directed at William Willoughby (Academy Award nominee Woody Harrelson), the town's revered chief of police. When his second-in-command Officer Dixon (Sam Rockwell), an immature mother's boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing's law enforcement is only exacerbated.",
+		videos: [
+			{'quality': 720, 'magnet_link': '67A23F568666FB735AED9BF340B520FE72F8BCED'},
+			{'quality': 1080, 'magnet_link': '67A23F568666FB735AED9BF340B520FE72F8BCED'},
+			{'quality': 2160, 'magnet_link': '67A23F568666FB735AED9BF340B520FE72F8BCED'},
+		]
+	},{
+		id: 892769,
+		title: "How to Train Your Dragon",
+		rating: 8.1,
+		year: 2010,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_SX150.jpg',
+		runtime: 98,
+		genre: 'Animation, Action, Adventure, Family, Fantasy',
+		plot: "Long ago up North on the Island of Berk, the young Viking, Hiccup, wants to join his town's fight against the dragons that continually raid their town. However, his macho father and village leader, Stoik the Vast, will not allow his small, clumsy, but inventive son to do so. Regardless, Hiccup ventures out into battle and downs a mysterious Night Fury dragon with his invention, but can't bring himself to kill it. Instead, Hiccup and the dragon, whom he dubs Toothless, begin a friendship that would open up both their worlds as the observant boy learns that his people have misjudged the species. But even as the two each take flight in their own way, they find that they must fight the destructive ignorance plaguing their world.",
+		videos: [
+			{'quality': 720, 'magnet_link': '864AF2C28C24E1D0A598A03D83F15C6A7E6191D7'},
+			{'quality': 1080, 'magnet_link': '864AF2C28C24E1D0A598A03D83F15C6A7E6191D7'},
+			{'quality': 2160, 'magnet_link': '864AF2C28C24E1D0A598A03D83F15C6A7E6191D7'},
+		]
+	},{
+		id: 361748,
+		title: "Inglourious Basterds",
+		rating: 8.3,
+		year: 2009,
+		poster: 'https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX150.jpg',
+		runtime: 153,
+		genre: 'Adventure, Drama, War',
+		plot: "In German-occupied France, young Jewish refugee Shosanna Dreyfus witnesses the slaughter of her family by Colonel Hans Landa. Narrowly escaping with her life, she plots her revenge several years later when German war hero Fredrick Zoller takes a rapid interest in her and arranges an illustrious movie premiere at the theater she now runs. With the promise of every major Nazi officer in attendance, the event catches the attention of the Basterds, a group of Jewish-American guerrilla soldiers led by the ruthless Lt. Aldo Raine. As the relentless executioners advance and the conspiring young girl's plans are set in motion, their paths will cross for a fateful evening that will shake the very annals of history.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'EE309632268D960122BE489F312AEAB87548D723'},
+			{'quality': 1080, 'magnet_link': 'EE309632268D960122BE489F312AEAB87548D723'},
+			{'quality': 2160, 'magnet_link': 'EE309632268D960122BE489F312AEAB87548D723'},
+		]
+	},{
+		id: 172495,
+		title: "Gladiator",
+		rating: 8.5,
+		year: 2000,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX150.jpg',
+		runtime: 155,
+		genre: 'Action, Adventure, Drama',
+		plot: "Maximus is a powerful Roman general, loved by the people and the aging Emperor, Marcus Aurelius. Before his death, the Emperor chooses Maximus to be his heir over his own son, Commodus, and a power struggle leaves Maximus and his family condemned to death. The powerful general is unable to save his family, and his loss of will allows him to get captured and put into the Gladiator games until he dies. The only desire that fuels him now is the chance to rise to the top so that he will be able to look into the eyes of the man who will feel his revenge.",
+		videos: [
+			{'quality': 720, 'magnet_link': '9BFAB920305925F9954D8C4B9DEDCD4C6B12FFEA'},
+			{'quality': 1080, 'magnet_link': '9BFAB920305925F9954D8C4B9DEDCD4C6B12FFEA'},
+			{'quality': 2160, 'magnet_link': '9BFAB920305925F9954D8C4B9DEDCD4C6B12FFEA'},
+		]
+	},{
+		id: 209144,
+		title: "Memento",
+		rating: 8.4,
+		year: 2000,
+		poster: 'https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX150.jpg',
+		runtime: 113,
+		genre: 'Mystery, Thriller',
+		plot: "Memento chronicles two separate stories of Leonard, an ex-insurance investigator who can no longer build new memories, as he attempts to find the murderer of his wife, which is the last thing he remembers. One story line moves forward in time while the other tells the story backwards revealing more each time.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'EA69E4CA8642766BA3BFA2B0267E2CC53777AFB2'},
+			{'quality': 1080, 'magnet_link': 'EA69E4CA8642766BA3BFA2B0267E2CC53777AFB2'},
+			{'quality': 2160, 'magnet_link': 'EA69E4CA8642766BA3BFA2B0267E2CC53777AFB2'},
+		]
+	},{
+		id: 108052,
+		title: "Schindler's List",
+		rating: 8.9,
+		year: 1993,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX150.jpg',
+		runtime: 195,
+		genre: 'Biography, Drama, History',
+		plot: "Oskar Schindler is a vainglorious and greedy German businessman who becomes an unlikely humanitarian amid the barbaric German Nazi reign when he feels compelled to turn his factory into a refuge for Jews. Based on the true story of Oskar Schindler who managed to save about 1100 Jews from being gassed at the Auschwitz concentration camp, it is a testament to the good in all of us.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'F64C844C39FCD6A5F9157884E97296F7019DB83B'},
+			{'quality': 1080, 'magnet_link': 'F64C844C39FCD6A5F9157884E97296F7019DB83B'},
+			{'quality': 2160, 'magnet_link': 'F64C844C39FCD6A5F9157884E97296F7019DB83B'},
+		]
+	},{
+		id: 198781,
+		title: "Monsters, Inc.",
+		rating: 8.0,
+		year: 2001,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX150.jpg',
+		runtime: 92,
+		genre: 'Animation, Adventure, Comedy, Family, Fantasy',
+		plot: "A city of monsters with no humans called Monstropolis centers around the city's power company, Monsters, Inc. The lovable, confident, tough, furry blue behemoth-like giant monster named James P. Sullivan (better known as Sulley) and his wisecracking best friend, short, green cyclops monster Mike Wazowski, discover what happens when the real world interacts with theirs in the form of a 2-year-old baby girl dubbed Boo, who accidentally sneaks into the monster world with Sulley one night. And now it's up to Sulley and Mike to send Boo back in her door before anybody finds out, especially two evil villains such as Sulley's main rival as a scarer, chameleon-like Randall (a monster that Boo is very afraid of), who possesses the ability to change the color of his skin, and Mike and Sulley's boss Mr. Waternoose, the chairman and chief executive officer of Monsters, Inc.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'D67281864031E5012B056C32EBDC6F9E33C42A44'},
+			{'quality': 1080, 'magnet_link': 'D67281864031E5012B056C32EBDC6F9E33C42A44'},
+			{'quality': 2160, 'magnet_link': 'D67281864031E5012B056C32EBDC6F9E33C42A44'},
+		]
+	},{
+		id: 83658,
+		title: "Blade Runner",
+		rating: 8.1,
+		year: 1982,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX150.jpg',
+		runtime: 117,
+		genre: 'Action, Sci-Fi, Thriller',
+		plot: "In the futuristic year of 2019, Los Angeles has become a dark and depressing metropolis, filled with urban decay. Rick Deckard, an ex-cop, is a Blade Runner. Blade runners are people assigned to assassinate replicants. The replicants are androids that look like real human beings. When four replicants commit a bloody mutiny on the Off World colony, Deckard is called out of retirement to track down the androids. As he tracks the replicants, eliminating them one by one, he soon comes across another replicant, Rachel, who evokes human emotion, despite the fact that she's a replicant herself. As Deckard closes in on the leader of the replicant group, his true hatred toward artificial intelligence makes him question his own identity in this future world, including what's human and what's not human.",
+		videos: [
+			{'quality': 720, 'magnet_link': '46378EA47454427D4D2B7A7A0D903F1E3B5732F2'},
+			{'quality': 1080, 'magnet_link': '46378EA47454427D4D2B7A7A0D903F1E3B5732F2'},
+			{'quality': 2160, 'magnet_link': '46378EA47454427D4D2B7A7A0D903F1E3B5732F2'},
+		]
+	},
+	{
 		id: 110357,
 		title: "The Lion King",
 		rating: 8.5,
