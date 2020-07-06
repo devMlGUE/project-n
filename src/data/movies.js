@@ -1,6 +1,64 @@
 
 const movies = [
 	{
+		id: 11127256,
+		title: "Choke",
+		rating: 6.8,
+		year: 2020,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNmI2ZDFmNTAtMWM5OS00NDVhLWEzNzgtN2E3ZmUxNzFmMDQ5XkEyXkFqcGdeQXVyMjM2OTAxNg@@._V1_SX150.jpg',
+		runtime: 73,
+		genre: 'Horror, Thriller',
+		plot: "The lines between reality and fiction, and good and bad blur when both a nihilistic detective and a serial killer's affairs with a mysterious girl overlap.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'F4B342374488429BDC5DE8C2476A4FC38E363860'},
+			{'quality': 1080, 'magnet_link': 'F4B342374488429BDC5DE8C2476A4FC38E363860'},
+			{'quality': 2160, 'magnet_link': 'F4B342374488429BDC5DE8C2476A4FC38E363860'},
+			{'quality': 2160, 'magnet_link': 'F4B342374488429BDC5DE8C2476A4FC38E363860'},
+		]
+	},{
+		id: 3833480,
+		title: "The Outpost",
+		rating: "N/A",
+		year: 2020,
+		poster: 'https://m.media-amazon.com/images/M/MV5BNWYyMzNjY2EtODVmYi00ODBmLWIyNGMtNDdhMGViY2RhNjcxXkEyXkFqcGdeQXVyNDExMzMxNjE@._V1_SX150.jpg',
+		runtime: "",
+		genre: 'Drama, History, War',
+		plot: "A small team of U.S. soldiers battle against hundreds of Taliban fighters in Afghanistan.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'FE6A76836F57F8BDF095678A002C145FE01CB048'},
+			{'quality': 1080, 'magnet_link': 'FE6A76836F57F8BDF095678A002C145FE01CB048'},
+			{'quality': 2160, 'magnet_link': 'FE6A76836F57F8BDF095678A002C145FE01CB048'},
+		]
+	},{
+		id: 11975230,
+		title: "The Skywalker Legacy",
+		rating: 7.5,
+		year: 2020,
+		poster: 'https://m.media-amazon.com/images/M/MV5BMzFkNzIwMjYtYzcxMi00YTM4LWFlMjQtNGU5ZGQ1ODc4NTZjXkEyXkFqcGdeQXVyMjU0MzM2NA@@._V1_SX150.jpg',
+		runtime: 126,
+		genre: 'Documentary',
+		plot: "The Making of Star Wars: The Rise Of Skywalker (2019).",
+		videos: [
+			{'quality': 720, 'magnet_link': 'EC16D417481E7522D5E28015089007094AF690AB'},
+			{'quality': 1080, 'magnet_link': 'EC16D417481E7522D5E28015089007094AF690AB'},
+			{'quality': 2160, 'magnet_link': 'EC16D417481E7522D5E28015089007094AF690AB'},
+		]
+	},{
+		id: 8580274,
+		title: "Eurovision Song Contest: The Story of Fire Saga",
+		rating: 6.7,
+		year: 2020,
+		poster: 'https://m.media-amazon.com/images/M/MV5BYzRjYzA5NTQtOTE3MC00OTYzLWEzODItMzQxYWE1NDJkMDA0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX150.jpg',
+		runtime: 123,
+		genre: 'Comedy, Music',
+		plot: "When aspiring musicians Lars and Sigrit are given the opportunity to represent their country at the world's biggest song competition, they finally have a chance to prove that any dream worth having is a dream worth fighting for.",
+		videos: [
+			{'quality': 720, 'magnet_link': 'F2C7A47A9D33D9CACD86F996763FCA67B07983AC'},
+			{'quality': 1080, 'magnet_link': 'F2C7A47A9D33D9CACD86F996763FCA67B07983AC'},
+			{'quality': 2160, 'magnet_link': 'F2C7A47A9D33D9CACD86F996763FCA67B07983AC'},
+		]
+	},
+	{
 		id: 884328,
 		title: "The Mist",
 		rating: 7.1,
@@ -1212,21 +1270,6 @@ const movies = [
 			{'quality': 720, 'magnet_link': '225D7FDA1048F9FC31C6A132B23AD68F41C0F8A9'},
 			{'quality': 1080, 'magnet_link': '225D7FDA1048F9FC31C6A132B23AD68F41C0F8A9'},
 			{'quality': 2160, 'magnet_link': '225D7FDA1048F9FC31C6A132B23AD68F41C0F8A9'},
-		]
-	},
-	{
-		id: 3778644,
-		title: "Solo: A Star Wars Story",
-		rating: 6.9,
-		year: 2018,
-		poster: 'https://m.media-amazon.com/images/M/MV5BOTM2NTI3NTc3Nl5BMl5BanBnXkFtZTgwNzM1OTQyNTM@._V1_SX150.jpg',
-		runtime: 135,
-		genre: 'Action, Adventure, Sci-Fi',
-		plot: "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
-		videos: [
-			{'quality': 720, 'magnet_link': 'E2E457B2E77128CD20FAFD0837BBDB9A4D543578'},
-			{'quality': 1080, 'magnet_link': 'E2E457B2E77128CD20FAFD0837BBDB9A4D543578'},
-			{'quality': 2160, 'magnet_link': 'E2E457B2E77128CD20FAFD0837BBDB9A4D543578'},
 		]
 	},
 	{

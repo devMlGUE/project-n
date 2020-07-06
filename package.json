@@ -14,6 +14,7 @@
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.13.1",
     "@fortawesome/free-regular-svg-icons": "^5.13.1",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
     "compression": "^1.7.1",
     "polka": "next",
     "sirv": "^0.4.0",

@@ -1,34 +1,28 @@
 <script context="module">
-	import { movieStoreList } from '../stores.js';
 	import movies from '../data/movies.js';
 	export async function preload({ params, query }) {
-		movieStoreList.update(() => movies);
+		return { movies: movies};
 	}
 </script>
 
 <script>
 	import {getRatingColor} from '../utils';
-	import { get } from 'svelte/store';
-
-	let currentPage = 1;
-	const movies = get(movieStoreList);
-	const maxMovies = 24;
+	export let movies;
+	let current_page = 1;
+	let max_movies = 24;
+	const max_pages = Math.ceil(movies.length / max_movies);
+	let movie_list = movies.slice(0, max_movies);
 	const currDate = new Date();
 	const currentYear = currDate.getFullYear();
 
 	const changePage = (new_page) => {
-		currentPage = new_page;
+		current_page = new_page;
+		const init = (current_page - 1) * max_movies;
+		const end = current_page * max_movies;
+		console.log(`${init} - ${end}`);
+		movie_list = movies.slice(init, end);
 	};
 
-	const getMaxPages = (movies) => {
-		return Math.ceil(movies.length / maxMovies);
-	};
-	const sliceMovies = (movies, page) => {
-		currentPage = page;
-		const init = (currentPage - 1) * maxMovies;
-		const end = currentPage * maxMovies;
-		return movies.slice(init, end);
-	};
 </script>
 
 <style>
@@ -188,7 +182,7 @@
 
 <div class="content">
 	<div class="container">
-		{#each sliceMovies($movieStoreList, currentPage) as movie, i}
+		{#each movie_list as movie, i}
 			<a rel='prefetch' href="/movie/{movie.id}">
 				<div class="item-listing-skrn">
 					<div class="item-listing-image-skrn">
@@ -215,10 +209,10 @@
 		{/each}
 	</div>
 	<div class="pagination">
-		{#each Array(getMaxPages($movieStoreList)) as _, i}
+		{#each Array(max_pages) as _, i}
 			<div class="pagination-number"
 				 on:click={() => changePage(i+1)}
-				 style="background-color: {currentPage === i+1 ? '#4CAF50' : '#8bc34a' }"
+				 style="background-color: {current_page === i+1 ? '#4CAF50' : '#8bc34a' }"
 			>
 				{i+1}
 			</div>
