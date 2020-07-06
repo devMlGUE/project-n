@@ -1,7 +1,7 @@
 {
   "name": "project-n",
   "description": "Project N",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",

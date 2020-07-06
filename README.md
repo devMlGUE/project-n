@@ -7,6 +7,9 @@ This project is powered by [webtorrent.io](webtorrent.io) and the JS framework
 [svelte.dev](https://svelte.dev).
 
 ## Changelog
+0.4.0
+- Add search feature
+
 0.3.1
 - Fix some styles
 - Add pagination to home list
